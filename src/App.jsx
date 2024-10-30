@@ -5,7 +5,8 @@ import Sidebar from './Sidebar';
 import Home from './Home';
 import Attendance from './Attendance';
 import Timetable from './Timetable';
-
+import Profile from './Profile';
+import './index.css';
 
 const App = () => {
   return (
@@ -17,8 +18,9 @@ const App = () => {
           <div className="p-6">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/attendance" element={<Attendance />} />
-              <Route path="/timetable" element={<Timetable />} />
+              <Route path="/Attendance" element={<Attendance />} />
+              <Route path="/Timetable" element={<Timetable />} />
+              <Route path="/Profile" element={<Profile />} />
               
             
             </Routes>
